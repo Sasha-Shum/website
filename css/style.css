@@ -1,0 +1,16 @@
+body{
+	background-color: #474747;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+color: #fff;
+text-shadow: #fff 0 0 10px;
+}
+
+
+.mainPage{
+max-width: 100%;
+max-height: 100%;
+
+}
