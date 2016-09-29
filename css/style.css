@@ -1,5 +1,5 @@
 body{
-	background-color: #474747;
+	background-color: #222222;
 }
 
 h1 {
@@ -13,4 +13,150 @@ text-shadow: #fff 0 0 10px;
 max-width: 100%;
 max-height: 100%;
 
+}
+
+@media screen and (max-width: 1920px) {
+	img[src*="Name"] {
+		margin-left: 5%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -5%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 56%;
+		margin-top: -20%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 51%;
+	}
+}
+
+
+@media screen and (max-width: 1600px) {
+	img[src*="Name"] {
+		margin-left: 6%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -6%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 57%;
+		margin-top: -20%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 52%;
+	}
+}
+
+
+@media screen and (max-width: 1340px) {
+	img[src*="Name"] {
+		margin-left: 7%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -7%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 59%;
+		margin-top: -20%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 52%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	img[src*="Name"] {
+		margin-left: 10%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -10%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 63%;
+		margin-top: -20%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 53%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	img[src*="Name"] {
+		margin-left: 14%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -14%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 67%;
+		margin-top: -20%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 53%;
+	}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+		img[src*="Name"] {
+		margin-left: 0%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: 0%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 0%;
+		margin-top:  0%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-top:  0%;
+		margin-left: 0%;
+	}
+}
+
+
+
+/*Rotate Images */
+.RotatePic {
+	-webkit-filter: grayscale(100%);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.RotatePic:hover {
+	-webkit-filter: grayscale(0%);
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
