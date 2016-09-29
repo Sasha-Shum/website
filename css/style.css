@@ -122,21 +122,61 @@ max-height: 100%;
 
 @media screen and (max-width: 767px) {
 		img[src*="Name"] {
+		margin-left: 14%;
+	}
+
+	.imageSize {
+		width:30%;
+		float:left;
+	}
+
+		img[src*="Programming"] {
 		margin-left: 0%;
 	}
 
 	img[src*="DesignProjects"] {
-		margin-left: 0%;
+		margin-left: -14%;
 	}
 
 	img[src*="Resume"] {
-		margin-left: 0%;
-		margin-top:  0%;
+		margin-left: 65%;
+		margin-top: -20%;
+
 	}
 
 	img[src*="AboutMe"] {
-		margin-top:  0%;
+		margin-top: -20%;
+		margin-left: 51%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+		img[src*="Name"] {
+		margin-left: 40%;
+	}
+
+	.imageSize {
+		width:30%;
+		float:left;
+	}
+
+		img[src*="Programming"] {
 		margin-left: 0%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -38%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 90%;
+		margin-top: -20%;
+
+	}
+
+	img[src*="AboutMe"] {
+		margin-top: -20%;
+		margin-left: 52%;
 	}
 }
 
