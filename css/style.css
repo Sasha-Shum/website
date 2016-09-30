@@ -140,31 +140,28 @@ max-height: 100%;
 		float:left;
 	}
 	img[src*="Name"] {
-		margin-left: 11%;
+		margin-left: 14%;
 	}
 
 	img[src*="DesignProjects"] {
-		margin-left: -11%;
+		margin-left: -14%;
 	}
 
 	img[src*="Resume"] {
-		margin-left: 63%;
-		margin-top: -85%;
+		margin-left: 66%;
+		margin-top: -89%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-left: 52%;
-		margin-top: -85%;
+		margin-left: 53%;
+		margin-top: -89%;
 		
 	}
 
-
-
-		.some{
- 	position: fixed;
-   	top: 50%;
-   	left: 50%;
-  	 transform: translate(-50%, -50%);
+			.row {
+		padding-top: 18%;
+		padding-left: 4%;
+	}
 }
 
 
