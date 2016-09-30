@@ -46,13 +46,17 @@ max-height: 100%;
 	}
 
 	img[src*="Resume"] {
-		margin-left: 57%;
-		margin-top: -20%;
+		margin-left: 56%;
+		margin-top: -35%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -20%;
-		margin-left: 52%;
+		margin-top: -35%;
+		margin-left: 51%;
+	}
+
+		.row {
+		padding-top: 5%;
 	}
 }
 
@@ -68,13 +72,18 @@ max-height: 100%;
 
 	img[src*="Resume"] {
 		margin-left: 59%;
-		margin-top: -20%;
+		margin-top: -43%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -20%;
+		margin-top: -43%;
 		margin-left: 52%;
 	}
+
+	.row {
+		padding-top: 7%;
+	}
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -88,12 +97,16 @@ max-height: 100%;
 
 	img[src*="Resume"] {
 		margin-left: 63%;
-		margin-top: -20%;
+		margin-top: -50%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -20%;
+		margin-top: -50%;
 		margin-left: 53%;
+	}
+
+		.row {
+		padding-top: 10%;
 	}
 }
 
@@ -108,19 +121,52 @@ max-height: 100%;
 
 	img[src*="Resume"] {
 		margin-left: 67%;
-		margin-top: -20%;
+		margin-top: -79%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -20%;
+		margin-top: -79%;
 		margin-left: 53%;
+	}
+
+			.row {
+		padding-top: 18%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+		.imageSize {
+		width:30%;
+		float:left;
+	}
+	img[src*="Name"] {
+		margin-left: 11%;
+	}
+
+	img[src*="DesignProjects"] {
+		margin-left: -11%;
+	}
+
+	img[src*="Resume"] {
+		margin-left: 63%;
+		margin-top: -85%;
+	}
+
+	img[src*="AboutMe"] {
+		margin-left: 52%;
+		margin-top: -85%;
+		
+	}
+
+			.row {
+		padding-top: 18%;
 	}
 }
 
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 360px) {
 		img[src*="Name"] {
 		margin-left: 14%;
 	}
@@ -150,35 +196,6 @@ max-height: 100%;
 	}
 }
 
-@media screen and (max-width: 767px) {
-		img[src*="Name"] {
-		margin-left: 40%;
-	}
-
-	.imageSize {
-		width:30%;
-		float:left;
-	}
-
-		img[src*="Programming"] {
-		margin-left: 0%;
-	}
-
-	img[src*="DesignProjects"] {
-		margin-left: -38%;
-	}
-
-	img[src*="Resume"] {
-		margin-left: 90%;
-		margin-top: -20%;
-
-	}
-
-	img[src*="AboutMe"] {
-		margin-top: -20%;
-		margin-left: 52%;
-	}
-}
 
 
 
