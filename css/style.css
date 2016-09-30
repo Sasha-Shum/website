@@ -46,18 +46,16 @@ max-height: 100%;
 	}
 
 	img[src*="Resume"] {
-		margin-left: 56%;
-		margin-top: -35%;
+		margin-left: 57%;
+		margin-top: -19%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -35%;
+		margin-top: -19%;
 		margin-left: 51%;
 	}
 
-		.row {
-		padding-top: 5%;
-	}
+
 }
 
 
@@ -72,17 +70,14 @@ max-height: 100%;
 
 	img[src*="Resume"] {
 		margin-left: 59%;
-		margin-top: -43%;
+		margin-top: -19%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -43%;
+		margin-top: -19%;
 		margin-left: 52%;
 	}
 
-	.row {
-		padding-top: 7%;
-	}
 
 }
 
@@ -97,113 +92,69 @@ max-height: 100%;
 
 	img[src*="Resume"] {
 		margin-left: 63%;
-		margin-top: -50%;
+		margin-top: -19%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -50%;
+		margin-top: -19%;
 		margin-left: 53%;
 	}
 
-		.row {
-		padding-top: 10%;
-	}
 }
 
 @media screen and (max-width: 800px) {
 	img[src*="Name"] {
-		margin-left: 14%;
+		margin-left: 16%;
 	}
 
 	img[src*="DesignProjects"] {
-		margin-left: -14%;
+		margin-left: -16%;
 	}
 
 	img[src*="Resume"] {
 		margin-left: 67%;
-		margin-top: -79%;
+		margin-top: -19%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-top: -79%;
+		margin-top: -19%;
 		margin-left: 53%;
 	}
 
-			.row {
-		padding-top: 18%;
-	}
 }
 
 @media screen and (max-width: 767px) {
 		.imageSize {
-		width:30%;
-		float:left;
+			width:30%;
 	}
+
 	img[src*="Name"] {
-		margin-left: 14%;
+		margin-left: 140%;
+	}
+
+	img[src*="Programming"] {
+		margin-left: 140%;
 	}
 
 	img[src*="DesignProjects"] {
-		margin-left: -14%;
+		margin-left: 140%;
 	}
 
 	img[src*="Resume"] {
-		margin-left: 66%;
-		margin-top: -89%;
+		margin-left: 140%;
+		margin-top: 0%;
 	}
 
 	img[src*="AboutMe"] {
-		margin-left: 53%;
-		margin-top: -89%;
+		margin-left: 140%;
+		margin-top: 0%;
 		
 	}
 
-			.row {
-		padding-top: 18%;
-		padding-left: 4%;
-	}
+
 }
 
 
-
-
-@media screen and (max-width: 360px) {
-		img[src*="Name"] {
-		margin-left: 14%;
-	}
-
-	.imageSize {
-		width:30%;
-		float:left;
-	}
-
-		img[src*="Programming"] {
-		margin-left: 0%;
-	}
-
-	img[src*="DesignProjects"] {
-		margin-left: -14%;
-	}
-
-	img[src*="Resume"] {
-		margin-left: 65%;
-		margin-top: -20%;
-
-	}
-
-	img[src*="AboutMe"] {
-		margin-top: -20%;
-		margin-left: 51%;
-	}
-
-	.some{
- 	position: fixed;
-   	top: 50%;
-   	left: 50%;
-  	 transform: translate(-50%, -50%);
-
-	}
-}
 
 
 
