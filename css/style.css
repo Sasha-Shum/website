@@ -153,6 +153,25 @@ img[src*="LookForACard"], img[src*="PlayLess"]  {
 
 .close:hover { background: #00d9ff; }
 
+.AboutMeInfo {
+	width:50%;
+	font-size: 1.4em;
+	color: #c8c8be;
+	margin:0 auto;
+
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.icons img {
+	width:64px;
+	height:65px;
+	margin-left: 20px;
+}
 
 @media screen and (max-width: 1920px) {
 	img[src*="Name"] {
@@ -173,6 +192,7 @@ img[src*="LookForACard"], img[src*="PlayLess"]  {
 		margin-left: 51%;
 	}
 }
+
 
 
 @media screen and (max-width: 1600px) {
