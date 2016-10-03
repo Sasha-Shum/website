@@ -80,14 +80,11 @@ figcaption {
 }
 
 .description {
-	height: 150px;
+	height: 140px;
 	overflow-y: auto;
 
 }
 
-.descriptionDesign {
-
-}
 
 
 .carouselHeight {
@@ -126,7 +123,6 @@ img[src*="LookForACard"], img[src*="PlayLess"]  {
 	width:42%;
 	margin: 0 auto;
 }
-
 
 
 
